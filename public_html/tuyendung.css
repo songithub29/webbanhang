@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1348px;
+}
+.header{
+    height: 150px;
+    font-size: 45px;
+    margin:0px 10px 0px 10px ;
+    background-image: url("images/anhheader.jpg");
+    background-size: 1348px 150px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow:0px 0px 3px chartreuse;
+}
+.block{
+    height: 45px;
+}
+.menu{
+    float: left;
+    width: 930px;
+    height: 45px;
+    background-image: url("images/anhmenu.jpg");
+    background-size:contain;
+    list-style-type:none;      
+    margin:0px 0px 0px 10px ;
+    padding: 0;
+}
+ul.root > li{              
+    
+    list-style-type: none;   
+     float: left; 
+     position: relative;
+} 
+ul.root > li > a{
+    font-size: 15px;
+    text-decoration: none; 
+    color: aliceblue;
+    line-height: 45px;
+    padding: 0px 40px 0px 40px;
+    font-style: italic;
+}
+ul.root > li > a:hover{
+    background-color:darkolivegreen;
+    display: block;
+}
+ul.sub-menu{
+    width:250px;
+    min-height: 135px;
+    display: none;   
+    position: absolute; 
+    background-image: url("images/anhmenu.jpg");
+}
+ul.sub-menu > li{
+    font-size: 15px;
+    list-style-type: none;
+    font-style: italic;
+}
+ul.sub-menu > li > a{
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    line-height: 45px;
+    text-indent: 35px;   
+}
+ul.sub-menu > li > a:hover{
+    background-color:darkolivegreen;
+}
+ul.root > li:hover ul.sub-menu{
+    display: block;
+}
+.maincontent{
+    margin:0px 10px 0px 10px ;
+    height: 460px;
+}
+
+   #appform {
+        font-family: "Quickbold";
+        border-bottom: 2px solid #ccc;
+        padding: 30px 200px 300px 200px;
+        background-image: url("images/anhtuyendung.jpg");
+        background-size: 100% 100%;
+        margin: 0px 10px 0px 10px;
+    }
+    
+    #appform .wrapper {
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        box-shadow: 0 2px 5px 0px rgb(0 0 0 / 20%);
+        margin-top: 40px;
+        border-top: 2px dotted rgba(0, 0, 0, 0.1);
+        font-size: 18px;
+    }
+    
+    #appform .form {
+        font-family: "Quickmedium" !important;
+    }
+    
+    #appform h1 {
+        font-weight: 300px;
+        padding-bottom: 30px;
+        font-size: 60px;
+    }
+    
+    #appform .from .row {
+        padding-bottom: 25px;
+    }
+    
+    #appform .from .row .laber {
+        color: #000;
+        font-weight: bold;
+        padding-bottom: 8px;
+    }
+    
+    .red {
+        color: #CC1111 !important;
+    }
+    
+    #appform .from .row .input input {
+        padding: 11px 13px;
+        font-size: 20px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        box-sizing: border-box;
+        width: 100%;
+        display: block;
+        padding: 0;
+        margin: 0;
+        border: none solid #000;
+        background: transparent;
+        background-color: #fff;
+        box-shadow: inset 1px 1px 1px #f8f8f8;
+    }
+    
+    #appform .form .row .select select {
+        padding: 10px 13px;
+        border: 1px solid rgb(0, 0, 0);
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+    }
+    
+    .select select {
+        box-sizing: border-box;
+        width: 100%;
+        display: block;
+        padding: 0;
+        margin: 0;
+        border: none solid #000;
+        background: transparent;
+        font-size: 20px;
+    }
+    .from .hoverdt input{
+        padding: 8px;
+        font-size: 16px;
+    }
+    .from .hoverdt{
+        text-align: center;
+    }
+ 
+#myInput {
+        background-position: 10px 12px;
+        background-repeat: no-repeat;
+        width: 395px;
+        font-size: 18px;
+        padding-top: 12px;
+        padding-bottom: 10px;
+        border: 1px solid #ddd;
+      }
+    
+#myUL {
+        list-style-type: none;
+        display: none;
+        padding: 0;
+        margin: 0;
+      }
+#myUL li{
+      margin-left: 930px;
+      margin-right: 10px;
+  }
+  #myUL li a {
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    text-shadow:0px 0px 3px rgb(223, 228, 233);
+  }
+    
+    #myUL li a.header {
+    cursor: default;
+    }
+    #myUL li a:hover {
+        color:green;
+       }
